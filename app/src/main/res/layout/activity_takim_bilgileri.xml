@@ -1,0 +1,248 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.erdem.kurumi.volley.TakimBilgileri"
+    android:clickable="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="23dp"
+                android:layout_marginStart="23dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/takimAdi"
+                android:layout_alignTop="@+id/thumbnail"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:layout_toEndOf="@+id/thumbnail"
+                android:layout_marginLeft="37dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="57dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/bilgi"
+                android:layout_below="@+id/textView"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Takım Geçmişi"
+                android:id="@+id/textView"
+                android:layout_below="@+id/thumbnail"
+                android:layout_alignLeft="@+id/thumbnail"
+                android:layout_alignStart="@+id/thumbnail"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/basari"
+                android:layout_below="@+id/textView2"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Başarılar"
+                android:id="@+id/textView2"
+                android:layout_below="@+id/bilgi"
+                android:layout_alignLeft="@+id/bilgi"
+                android:layout_alignStart="@+id/bilgi"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Oyuncular"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/basari"
+                android:layout_alignLeft="@+id/basari"
+                android:layout_alignStart="@+id/basari"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView8"
+                android:autoText="false"
+                android:layout_alignTop="@+id/thumbnail1"
+                android:layout_toRightOf="@+id/textView4"
+                android:layout_toEndOf="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView10"
+                android:layout_alignTop="@+id/thumbnail2"
+                android:layout_alignLeft="@+id/textView11"
+                android:layout_alignStart="@+id/textView11" />
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:layout_below="@+id/textView4"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4" />
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/thumbnail2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:layout_below="@+id/thumbnail1"
+                android:layout_alignLeft="@+id/thumbnail1"
+                android:layout_alignStart="@+id/thumbnail1"
+                android:layout_marginTop="24dp" />
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/thumbnail3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:layout_below="@+id/thumbnail2"
+                android:layout_alignLeft="@+id/thumbnail2"
+                android:layout_alignStart="@+id/thumbnail2"
+                android:layout_marginTop="33dp" />
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/thumbnail4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:layout_below="@+id/thumbnail3"
+                android:layout_alignLeft="@+id/thumbnail3"
+                android:layout_alignStart="@+id/thumbnail3"
+                android:layout_marginTop="39dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Üst Koridor"
+                android:id="@+id/textView11"
+                android:layout_alignBottom="@+id/thumbnail1"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_alignStart="@+id/textView8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Ormancı"
+                android:id="@+id/textView12"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/textView10"
+                android:layout_alignLeft="@+id/textView10"
+                android:layout_alignStart="@+id/textView10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/ortakoridor"
+                android:layout_alignTop="@+id/thumbnail3"
+                android:layout_alignLeft="@+id/textView12"
+                android:layout_alignStart="@+id/textView12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Orta Koridor"
+                android:id="@+id/textView14"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/ortakoridor"
+                android:layout_alignLeft="@+id/ortakoridor"
+                android:layout_alignStart="@+id/ortakoridor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/nisanci"
+                android:layout_alignTop="@+id/thumbnail4"
+                android:layout_alignLeft="@+id/textView14"
+                android:layout_alignStart="@+id/textView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Nişancı"
+                android:id="@+id/textView15"
+                android:layout_below="@+id/nisanci"
+                android:layout_alignLeft="@+id/nisanci"
+                android:layout_alignStart="@+id/nisanci"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/destek"
+                android:layout_alignTop="@+id/thumbnail5"
+                android:layout_alignLeft="@+id/textView15"
+                android:layout_alignStart="@+id/textView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Destek"
+                android:id="@+id/textView16"
+                android:layout_below="@+id/destek"
+                android:layout_alignLeft="@+id/destek"
+                android:layout_alignStart="@+id/destek"
+                android:layout_marginTop="18dp" />
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/thumbnail5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/thumbnail4"
+                android:layout_alignLeft="@+id/thumbnail4"
+                android:layout_alignStart="@+id/thumbnail4" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

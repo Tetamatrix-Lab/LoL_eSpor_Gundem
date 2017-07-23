@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erdem.kurumi.volley" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LoL eSport"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name=".Splash"
+            android:label="LoL eSport" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TakimBilgileri"
+            android:label="Şampiyonluk Ligi Takım Bilgileri" >
+        </activity>
+        <activity
+            android:name=".Ligler.LigPuanDurumu"
+            android:label="Şampiyonluk Ligi Puan Durumu" >
+        </activity>
+        <activity
+            android:name=".Takimlar"
+            android:label="Şampiyonluk Ligi Takımlar" >
+        </activity>
+        <activity
+            android:name=".Ligler.NaLcs"
+            android:label="North America Lcs" >
+        </activity>
+        <activity
+            android:name=".Ligler.EuLcs"
+            android:label="Europe Lcs" >
+        </activity>
+        <activity
+            android:name=".Ligler.Taiwand"
+            android:label="Lms Taiwan" >
+        </activity>
+        <activity
+            android:name=".Ligler.NAChallanger"
+            android:label="North America Challenger Series" >
+        </activity>
+        <activity
+            android:name=".Ligler.EUChallanger"
+            android:label="Europe Challenger Series" >
+        </activity>
+        <activity
+            android:name=".Ligler.AllStar"
+            android:label="All-Star" >
+        </activity>
+        <activity
+            android:name=".Ligler.ChinaLig"
+            android:label="Lpl China" >
+        </activity>
+        <activity
+            android:name=".Ligler.WildCard"
+            android:label="WildCard 2015" >
+        </activity>
+        <activity
+            android:name=".Ligler.KoreaLig"
+            android:label="Champions Korea" >
+        </activity>
+        <activity
+            android:name=".OyuncuKDA"
+            android:label="Şampiyonluk Ligi" >
+        </activity>
+        <activity
+            android:name=".Ligler.YukselmePuan"
+            android:label="YukselmeLigi 2015" >
+        </activity>
+
+        <activity
+            android:name=".VideoHome"
+            android:label="Maç Özetleri" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Haberler"
+            android:label="LoL eSpor Haberleri" >
+        </activity>
+        <activity
+            android:name=".HaberGoster"
+            android:label="LoL eSpor Haberleri" >
+        </activity>
+        <activity
+            android:name=".Ligler_Grid"
+            android:label="Ligler" >
+        </activity>
+        <activity
+            android:name=".AnasayfaMeterial"
+            android:label="LoL eSport" >
+        </activity>
+        <activity
+        android:name=".MacFiksturu"
+        android:label="@string/title_activity_main" >
+    </activity>
+        <activity
+            android:name=".SampiyonlukLigiOzet.YouTubeActivity"
+            android:label="2015 ŞplLigi" >
+        </activity>
+        <activity
+            android:name=".Youtube.Izle"
+            android:screenOrientation="landscape"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".KisMevsimi.KisMevsimi"
+            android:label="Kış Mevsimi" >
+        </activity>
+        <activity
+            android:name=".MSI.MSIMevsimi"
+            android:label="Msi" >
+        </activity>
+        <activity
+            android:name=".UluslararasiTurnuva.UluslararasiMevsimi"
+            android:label="Uluslararası Turnuva" >
+        </activity>
+        <activity
+            android:name=".Wildcard.WildcardMevsimi"
+            android:label="Wildcard" >
+        </activity>
+        <activity
+            android:name=".YukselmeLigi.YukselmeMevsimi"
+            android:label="Yukselme Ligi">
+        </activity>
+        <activity
+            android:name=".TBF.TBFMevsimi"
+            android:label="Tbf 2014" >
+        </activity>
+    </application>
+
+</manifest>

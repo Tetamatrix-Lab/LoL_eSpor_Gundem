@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Ayarlar, daima taşan eylemler bölümünde durabilir -->
+    <item android:id="@+id/action_bar2"
+        android:title="Sesi Kapat"
+    />
+</menu>
